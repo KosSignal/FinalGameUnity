@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class GameController : MonoBehaviour
 {
+    public GameObject lifeText;
     public int lives = 5;
     public GameObject[] questions;
     public GameObject next;
@@ -21,14 +23,21 @@ public class GameController : MonoBehaviour
     }
     
     void Update() {
-        
+        lifeText.GetComponent<TextMeshProUGUI>().text = "" + lives;
+        if (lives < 0) { // Game Over
+            SceneManager.LoadScene(2);
+        }
     }
 
     public void nextQuestion() {
-        questions[currentIndex].SetActive(false);
+        Destroy(questions[currentIndex]);
         currentIndex++;
-        questions[currentIndex].SetActive(true);
-        next.GetComponent<Button>().interactable = false;
-        next.GetComponentInChildren<TextMeshProUGUI>().text = "";
+        if (currentIndex < questions.Length) {
+            questions[currentIndex].SetActive(true);
+            next.GetComponent<Button>().interactable = false;
+            next.GetComponentInChildren<TextMeshProUGUI>().text = "";
+        } else { // You Passed
+            SceneManager.LoadScene(3);
+        }
     }
 }

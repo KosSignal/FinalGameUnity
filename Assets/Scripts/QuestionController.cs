@@ -9,6 +9,7 @@ public class QuestionController : MonoBehaviour
     public bool isBoolean = false;
     public GameObject[] answers;
     public string[] answerText;
+    public string wrongText = "Incorrect!";
     public int correctIndex;
 
     private GameController gameController;
@@ -21,7 +22,7 @@ public class QuestionController : MonoBehaviour
 
     void Start() {
         if (isBoolean) {
-            answerText[0] = "True";
+            answerText[0] = "True ";
             answerText[1] = "False";
             answers[2].SetActive(false);
             answers[3].SetActive(false);
@@ -54,6 +55,11 @@ public class QuestionController : MonoBehaviour
         // Change Answer Text
         this.GetComponentInChildren<TextMeshProUGUI>().text = "Correct!";
 
+        // Add a life if less than 5
+        if (gameController.lives < 5) {
+            gameController.lives++;
+        }
+
         // Show Next Question Button
         gameController.next.GetComponent<Button>().interactable = true;
         gameController.next.GetComponentInChildren<TextMeshProUGUI>().text = "Next Question";
@@ -62,9 +68,8 @@ public class QuestionController : MonoBehaviour
     public void Wrong(Button button) {
         // Disable Answer and take a life
         button.interactable = false;
+        gameController.lives--;
 
-        gameController.next.GetComponentInChildren<TextMeshProUGUI>().text = "WRONG ANSWER!";
-
-        // Lives -= 1;
+        gameController.next.GetComponentInChildren<TextMeshProUGUI>().text = wrongText;
     }
 }
