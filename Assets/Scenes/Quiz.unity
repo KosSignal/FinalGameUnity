@@ -4201,7 +4201,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9008160625738356819, guid: 05c4c24ad4657284e98b672b8fc6ba67, type: 3}
       propertyPath: correctIndex
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9008160625738356819, guid: 05c4c24ad4657284e98b672b8fc6ba67, type: 3}
       propertyPath: 'answerText.Array.data[0]'

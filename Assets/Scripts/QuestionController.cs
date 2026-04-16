@@ -45,8 +45,8 @@ public class QuestionController : MonoBehaviour
         // Change Answer Text
         this.GetComponentInChildren<TextMeshProUGUI>().text = "Correct!";
 
-        // Add a life if less than 5
-        if (gameController.lives < 5) {
+        // Add a life if less than 10
+        if (gameController.lives < 10) {
             gameController.lives++;
         }
 
