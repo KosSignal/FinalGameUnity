@@ -14,22 +14,12 @@ public class QuestionController : MonoBehaviour
 
     private GameController gameController;
 
-    private int numAnswers = 4;
-
     void Awake() {
         gameController = FindAnyObjectByType<GameController>();
     }
 
     void Start() {
-        if (isBoolean) {
-            answerText[0] = "True ";
-            answerText[1] = "False";
-            answers[2].SetActive(false);
-            answers[3].SetActive(false);
-            numAnswers = 2;
-        }
-
-        for (int i = 0; i < numAnswers; i++) {
+        for (int i = 0; i < 4; i++) {
             Button button =  answers[i].GetComponent<Button>();
             // Change Disabled Color
             ColorBlock cb = button.colors;
@@ -49,7 +39,7 @@ public class QuestionController : MonoBehaviour
 
     public void Correct() {
         // Disable All Buttons
-        for (int i = 0; i < numAnswers; i++) {
+        for (int i = 0; i < 4; i++) {
             answers[i].GetComponent<Button>().interactable = false;
         }
         // Change Answer Text

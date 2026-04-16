@@ -15,9 +15,7 @@ public class GameController : MonoBehaviour
     public int currentIndex = 0;
 
     void Start() {
-        for (int i = 1; i < questions.Length; i++) {
-            questions[i].SetActive(false);
-        }
+        questions[0].SetActive(true);
         next.GetComponent<Button>().interactable = false;
         next.GetComponentInChildren<TextMeshProUGUI>().text = "";
     }
