@@ -58,6 +58,10 @@ public class QuestionController : MonoBehaviour
     public void Wrong(Button button) {
         // Disable Answer and take a life
         button.interactable = false;
+        if (gameController.lives > 1) {
+            FindAnyObjectByType<AudioController>().Play("Wrong");
+        }
+
         gameController.lives--;
 
         gameController.next.GetComponentInChildren<TextMeshProUGUI>().text = wrongText;
