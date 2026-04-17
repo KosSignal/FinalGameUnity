@@ -6,7 +6,7 @@ using TMPro;
 
 public class QuestionController : MonoBehaviour
 {
-    public bool isBoolean = false;
+    public int index;
     public GameObject[] answers;
     public string[] answerText;
     public string wrongText = "Incorrect!";
@@ -14,11 +14,9 @@ public class QuestionController : MonoBehaviour
 
     private GameController gameController;
 
-    void Awake() {
-        gameController = FindAnyObjectByType<GameController>();
-    }
-
     void Start() {
+        gameController = FindAnyObjectByType<GameController>();
+
         for (int i = 0; i < 4; i++) {
             Button button =  answers[i].GetComponent<Button>();
             // Change Disabled Color

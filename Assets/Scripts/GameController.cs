@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,14 +9,18 @@ using TMPro;
 public class GameController : MonoBehaviour
 {
     public GameObject lifeText;
-    public int lives = 5;
+    public int lives;
     public GameObject[] questions;
     public GameObject next; // Next question button
 
     public int currentIndex = 0;
 
     void Start() {
-        questions[0].SetActive(true);
+        lives = PlayerPrefs.GetInt("Lives");
+        questions = FindObsWithTag("Question");
+        for (int i = 1; i < questions.Length; i++) {
+            questions[i].SetActive(false);
+        }
         next.GetComponent<Button>().interactable = false;
         next.GetComponentInChildren<TextMeshProUGUI>().text = "";
     }
@@ -35,7 +40,18 @@ public class GameController : MonoBehaviour
             next.GetComponent<Button>().interactable = false;
             next.GetComponentInChildren<TextMeshProUGUI>().text = "";
         } else { // You Passed
-            SceneManager.LoadScene(3);
+            PlayerPrefs.SetInt("Lives", lives);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
+    }
+
+    private GameObject[] FindObsWithTag(string tag) { // Creates the array
+        GameObject[] foundObs = GameObject.FindGameObjectsWithTag(tag);
+        Array.Sort(foundObs, CompareObIndex);
+        return foundObs;
+    }
+
+    private int CompareObIndex(GameObject x, GameObject y) { // Sort the array
+        return x.GetComponent<QuestionController>().index.CompareTo(y.GetComponent<QuestionController>().index);
     }
 }
