@@ -528,7 +528,7 @@ Transform:
   - {fileID: 923528344}
   m_Father: {fileID: 683373122}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &272781463
+--- !u!1 &254969385
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -536,8 +536,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 272781464}
-  - component: {fileID: 272781465}
+  - component: {fileID: 254969387}
+  - component: {fileID: 254969386}
   m_Layer: 0
   m_Name: AudioController
   m_TagString: Untagged
@@ -545,28 +545,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &272781464
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 272781463}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &272781465
+--- !u!114 &254969386
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 272781463}
+  m_GameObject: {fileID: 254969385}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 92a4a5e3bb06b2742a487b61f665289e, type: 3}
@@ -578,6 +563,26 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     source: {fileID: 0}
+  - name: Correct
+    clip: {fileID: 8300000, guid: 4bcd719da0fad364eae5de1d694e93c2, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+--- !u!4 &254969387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254969385}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &296688857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1091,6 +1096,10 @@ PrefabInstance:
     - target: {fileID: 9008160625738356819, guid: 05c4c24ad4657284e98b672b8fc6ba67, type: 3}
       propertyPath: wrongText
       value: Are you an alien?
+      objectReference: {fileID: 0}
+    - target: {fileID: 9008160625738356819, guid: 05c4c24ad4657284e98b672b8fc6ba67, type: 3}
+      propertyPath: correctIndex
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9008160625738356819, guid: 05c4c24ad4657284e98b672b8fc6ba67, type: 3}
       propertyPath: 'answerText.Array.data[0]'
@@ -3518,7 +3527,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9008160625738356819, guid: 05c4c24ad4657284e98b672b8fc6ba67, type: 3}
       propertyPath: correctIndex
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9008160625738356819, guid: 05c4c24ad4657284e98b672b8fc6ba67, type: 3}
       propertyPath: 'answerText.Array.data[0]'
@@ -3940,7 +3949,6 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 272781464}
   - {fileID: 6332360748791892525}
   - {fileID: 519420032}
   - {fileID: 1653718867}
@@ -3948,3 +3956,4 @@ SceneRoots:
   - {fileID: 2131945096}
   - {fileID: 683373122}
   - {fileID: 1871019392}
+  - {fileID: 254969387}

@@ -1,4 +1,7 @@
 <linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="Sound" preserve="nothing" serialized="true"/>
+	</assembly>
 	<assembly fullname="Unity.Cinemachine">
 		<type fullname="Unity.Cinemachine.CameraTarget" preserve="nothing" serialized="true"/>
 		<type fullname="Unity.Cinemachine.CinemachineBlendDefinition" preserve="nothing" serialized="true"/>

@@ -72,21 +72,38 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Game Over.unity",
+              "Assets/Scenes/Title Screen.unity",
+              "Assets/Scenes/Wave1.unity",
+              "Assets/Scenes/Wave2.unity",
+              "Assets/Scenes/Wave3.unity",
+              "Assets/Scenes/Wave4.unity",
+              "Assets/Scenes/You Passed.unity"
             ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AudioClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Wave1.unity",
+              "Assets/Scenes/Wave2.unity",
+              "Assets/Scenes/Wave3.unity",
+              "Assets/Scenes/Wave4.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AudioListener",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Game Over.unity",
+              "Assets/Scenes/Title Screen.unity",
+              "Assets/Scenes/Wave1.unity",
+              "Assets/Scenes/Wave2.unity",
+              "Assets/Scenes/Wave3.unity",
+              "Assets/Scenes/Wave4.unity",
+              "Assets/Scenes/You Passed.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -99,8 +116,13 @@
           },
           {
             "name": "AudioResource",
-            "scenes": [],
-            "dependencyType": 1,
+            "scenes": [
+              "Assets/Scenes/Wave1.unity",
+              "Assets/Scenes/Wave2.unity",
+              "Assets/Scenes/Wave3.unity",
+              "Assets/Scenes/Wave4.unity"
+            ],
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -141,7 +163,13 @@
           {
             "name": "Camera",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Game Over.unity",
+              "Assets/Scenes/Title Screen.unity",
+              "Assets/Scenes/Wave1.unity",
+              "Assets/Scenes/Wave2.unity",
+              "Assets/Scenes/Wave3.unity",
+              "Assets/Scenes/Wave4.unity",
+              "Assets/Scenes/You Passed.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -160,7 +188,11 @@
           },
           {
             "name": "Cubemap",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Game Over.unity",
+              "Assets/Scenes/Title Screen.unity",
+              "Assets/Scenes/You Passed.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -179,7 +211,13 @@
           {
             "name": "EditorExtension",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Game Over.unity",
+              "Assets/Scenes/Title Screen.unity",
+              "Assets/Scenes/Wave1.unity",
+              "Assets/Scenes/Wave2.unity",
+              "Assets/Scenes/Wave3.unity",
+              "Assets/Scenes/Wave4.unity",
+              "Assets/Scenes/You Passed.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -193,7 +231,13 @@
           {
             "name": "GameObject",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Game Over.unity",
+              "Assets/Scenes/Title Screen.unity",
+              "Assets/Scenes/Wave1.unity",
+              "Assets/Scenes/Wave2.unity",
+              "Assets/Scenes/Wave3.unity",
+              "Assets/Scenes/Wave4.unity",
+              "Assets/Scenes/You Passed.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -225,7 +269,13 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Game Over.unity",
+              "Assets/Scenes/Title Screen.unity",
+              "Assets/Scenes/Wave1.unity",
+              "Assets/Scenes/Wave2.unity",
+              "Assets/Scenes/Wave3.unity",
+              "Assets/Scenes/Wave4.unity",
+              "Assets/Scenes/You Passed.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -257,7 +307,13 @@
           {
             "name": "LightmapSettings",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Game Over.unity",
+              "Assets/Scenes/Title Screen.unity",
+              "Assets/Scenes/Wave1.unity",
+              "Assets/Scenes/Wave2.unity",
+              "Assets/Scenes/Wave3.unity",
+              "Assets/Scenes/Wave4.unity",
+              "Assets/Scenes/You Passed.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -271,7 +327,11 @@
           {
             "name": "Material",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Title Screen.unity",
+              "Assets/Scenes/Wave1.unity",
+              "Assets/Scenes/Wave2.unity",
+              "Assets/Scenes/Wave3.unity",
+              "Assets/Scenes/Wave4.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -297,7 +357,11 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Title Screen.unity",
+              "Assets/Scenes/Wave1.unity",
+              "Assets/Scenes/Wave2.unity",
+              "Assets/Scenes/Wave3.unity",
+              "Assets/Scenes/Wave4.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -311,7 +375,11 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Title Screen.unity",
+              "Assets/Scenes/Wave1.unity",
+              "Assets/Scenes/Wave2.unity",
+              "Assets/Scenes/Wave3.unity",
+              "Assets/Scenes/Wave4.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -319,7 +387,13 @@
           {
             "name": "NamedObject",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Game Over.unity",
+              "Assets/Scenes/Title Screen.unity",
+              "Assets/Scenes/Wave1.unity",
+              "Assets/Scenes/Wave2.unity",
+              "Assets/Scenes/Wave3.unity",
+              "Assets/Scenes/Wave4.unity",
+              "Assets/Scenes/You Passed.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -357,7 +431,11 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Title Screen.unity",
+              "Assets/Scenes/Wave1.unity",
+              "Assets/Scenes/Wave2.unity",
+              "Assets/Scenes/Wave3.unity",
+              "Assets/Scenes/Wave4.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -371,7 +449,13 @@
           {
             "name": "RenderSettings",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Game Over.unity",
+              "Assets/Scenes/Title Screen.unity",
+              "Assets/Scenes/Wave1.unity",
+              "Assets/Scenes/Wave2.unity",
+              "Assets/Scenes/Wave3.unity",
+              "Assets/Scenes/Wave4.unity",
+              "Assets/Scenes/You Passed.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -384,8 +468,14 @@
           },
           {
             "name": "Renderer",
-            "scenes": [],
-            "dependencyType": 1,
+            "scenes": [
+              "Assets/Scenes/Title Screen.unity",
+              "Assets/Scenes/Wave1.unity",
+              "Assets/Scenes/Wave2.unity",
+              "Assets/Scenes/Wave3.unity",
+              "Assets/Scenes/Wave4.unity"
+            ],
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -403,7 +493,11 @@
           {
             "name": "Shader",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Title Screen.unity",
+              "Assets/Scenes/Wave1.unity",
+              "Assets/Scenes/Wave2.unity",
+              "Assets/Scenes/Wave3.unity",
+              "Assets/Scenes/Wave4.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -429,7 +523,11 @@
           {
             "name": "Sprite",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Title Screen.unity",
+              "Assets/Scenes/Wave1.unity",
+              "Assets/Scenes/Wave2.unity",
+              "Assets/Scenes/Wave3.unity",
+              "Assets/Scenes/Wave4.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -442,7 +540,13 @@
           },
           {
             "name": "SpriteRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Title Screen.unity",
+              "Assets/Scenes/Wave1.unity",
+              "Assets/Scenes/Wave2.unity",
+              "Assets/Scenes/Wave3.unity",
+              "Assets/Scenes/Wave4.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -460,18 +564,14 @@
           },
           {
             "name": "Texture",
-            "scenes": [
-              "Assets/Scenes/SampleScene.unity"
-            ],
-            "dependencyType": 0,
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
           },
           {
             "name": "Texture2D",
-            "scenes": [
-              "Assets/Scenes/SampleScene.unity"
-            ],
-            "dependencyType": 0,
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
           },
           {
@@ -1582,7 +1682,7 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Title Screen.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1648,7 +1748,11 @@
           {
             "name": "Canvas",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Title Screen.unity",
+              "Assets/Scenes/Wave1.unity",
+              "Assets/Scenes/Wave2.unity",
+              "Assets/Scenes/Wave3.unity",
+              "Assets/Scenes/Wave4.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1662,7 +1766,11 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/Title Screen.unity",
+              "Assets/Scenes/Wave1.unity",
+              "Assets/Scenes/Wave2.unity",
+              "Assets/Scenes/Wave3.unity",
+              "Assets/Scenes/Wave4.unity"
             ],
             "dependencyType": 0,
             "icon": null

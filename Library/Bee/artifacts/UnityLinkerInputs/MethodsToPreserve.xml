@@ -2,6 +2,12 @@
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
 		<type fullname="GameController">
 			<method name="nextQuestion"/>
+			<method name="nextQuestion"/>
+			<method name="nextQuestion"/>
+			<method name="nextQuestion"/>
+		</type>
+		<type fullname="MainMenu">
+			<method name="PlayGame"/>
 		</type>
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">

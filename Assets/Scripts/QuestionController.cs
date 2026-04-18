@@ -40,6 +40,7 @@ public class QuestionController : MonoBehaviour
         for (int i = 0; i < 4; i++) {
             answers[i].GetComponent<Button>().interactable = false;
         }
+        FindAnyObjectByType<AudioController>().Play("Correct");
         // Change Answer Text
         this.GetComponentInChildren<TextMeshProUGUI>().text = "Correct!";
 

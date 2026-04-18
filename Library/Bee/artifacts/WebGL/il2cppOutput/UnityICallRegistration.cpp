@@ -874,6 +874,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Application_OpenURL_Injected();
 		Register_UnityEngine_Application_OpenURL_Injected();
 
+		//System.Void UnityEngine.Application::Quit(System.Int32)
+		void Register_UnityEngine_Application_Quit();
+		Register_UnityEngine_Application_Quit();
+
 		//System.Void UnityEngine.Application::get_streamingAssetsPath_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)
 		void Register_UnityEngine_Application_get_streamingAssetsPath_Injected();
 		Register_UnityEngine_Application_get_streamingAssetsPath_Injected();
@@ -883,6 +887,18 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_Application_get_platform();
 
 	//End Registrations for type : UnityEngine.Application
+
+	//Start Registrations for type : UnityEngine.AsyncOperation
+
+		//System.Void UnityEngine.AsyncOperation::InternalDestroy(System.IntPtr)
+		void Register_UnityEngine_AsyncOperation_InternalDestroy();
+		Register_UnityEngine_AsyncOperation_InternalDestroy();
+
+		//System.Void UnityEngine.AsyncOperation::InternalSetManagedObject(System.IntPtr,UnityEngine.AsyncOperation)
+		void Register_UnityEngine_AsyncOperation_InternalSetManagedObject();
+		Register_UnityEngine_AsyncOperation_InternalSetManagedObject();
+
+	//End Registrations for type : UnityEngine.AsyncOperation
 
 	//Start Registrations for type : UnityEngine.Audio.AudioClipPlayable
 
@@ -963,6 +979,26 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_AudioClip_get_length_Injected();
 
 	//End Registrations for type : UnityEngine.AudioClip
+
+	//Start Registrations for type : UnityEngine.AudioSource
+
+		//System.Void UnityEngine.AudioSource::PlayHelper_Injected(System.IntPtr,System.UInt64)
+		void Register_UnityEngine_AudioSource_PlayHelper_Injected();
+		Register_UnityEngine_AudioSource_PlayHelper_Injected();
+
+		//System.Void UnityEngine.AudioSource::SetPitch_Injected(System.IntPtr,System.Single)
+		void Register_UnityEngine_AudioSource_SetPitch_Injected();
+		Register_UnityEngine_AudioSource_SetPitch_Injected();
+
+		//System.Void UnityEngine.AudioSource::set_generatorObject_Injected(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AudioSource_set_generatorObject_Injected();
+		Register_UnityEngine_AudioSource_set_generatorObject_Injected();
+
+		//System.Void UnityEngine.AudioSource::set_volume_Injected(System.IntPtr,System.Single)
+		void Register_UnityEngine_AudioSource_set_volume_Injected();
+		Register_UnityEngine_AudioSource_set_volume_Injected();
+
+	//End Registrations for type : UnityEngine.AudioSource
 
 	//Start Registrations for type : UnityEngine.Avatar
 
@@ -2405,6 +2441,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.GameObject::set_layer_Injected(System.IntPtr,System.Int32)
 		void Register_UnityEngine_GameObject_set_layer_Injected();
 		Register_UnityEngine_GameObject_set_layer_Injected();
+
+		//UnityEngine.GameObject[] UnityEngine.GameObject::FindGameObjectsWithTag_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_GameObject_FindGameObjectsWithTag_Injected();
+		Register_UnityEngine_GameObject_FindGameObjectsWithTag_Injected();
 
 	//End Registrations for type : UnityEngine.GameObject
 
@@ -4772,6 +4812,18 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.PlayerConnectionInternal
 
+	//Start Registrations for type : UnityEngine.PlayerPrefs
+
+		//System.Boolean UnityEngine.PlayerPrefs::TrySetInt_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,System.Int32)
+		void Register_UnityEngine_PlayerPrefs_TrySetInt_Injected();
+		Register_UnityEngine_PlayerPrefs_TrySetInt_Injected();
+
+		//System.Int32 UnityEngine.PlayerPrefs::GetInt_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,System.Int32)
+		void Register_UnityEngine_PlayerPrefs_GetInt_Injected();
+		Register_UnityEngine_PlayerPrefs_GetInt_Injected();
+
+	//End Registrations for type : UnityEngine.PlayerPrefs
+
 	//Start Registrations for type : UnityEngine.PolygonCollider2D
 
 		//System.Int32 UnityEngine.PolygonCollider2D::GetTotalPointCount_Injected(System.IntPtr)
@@ -6590,6 +6642,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.SceneManagement.Scene
 
+		//System.Int32 UnityEngine.SceneManagement.Scene::GetBuildIndexInternal_Injected(UnityEngine.SceneManagement.SceneHandle&)
+		void Register_UnityEngine_SceneManagement_Scene_GetBuildIndexInternal_Injected();
+		Register_UnityEngine_SceneManagement_Scene_GetBuildIndexInternal_Injected();
+
 		//System.Void UnityEngine.SceneManagement.Scene::GetGUIDInternal_Injected(UnityEngine.SceneManagement.SceneHandle&,UnityEngine.Bindings.ManagedSpanWrapper&)
 		void Register_UnityEngine_SceneManagement_Scene_GetGUIDInternal_Injected();
 		Register_UnityEngine_SceneManagement_Scene_GetGUIDInternal_Injected();
@@ -6598,11 +6654,27 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.SceneManagement.SceneManager
 
+		//System.Int32 UnityEngine.SceneManagement.SceneManager::get_sceneCount()
+		void Register_UnityEngine_SceneManagement_SceneManager_get_sceneCount();
+		Register_UnityEngine_SceneManagement_SceneManager_get_sceneCount();
+
 		//System.Void UnityEngine.SceneManagement.SceneManager::GetActiveScene_Injected(UnityEngine.SceneManagement.Scene&)
 		void Register_UnityEngine_SceneManagement_SceneManager_GetActiveScene_Injected();
 		Register_UnityEngine_SceneManagement_SceneManager_GetActiveScene_Injected();
 
+		//System.Void UnityEngine.SceneManagement.SceneManager::GetSceneAt_Injected(System.Int32,UnityEngine.SceneManagement.Scene&)
+		void Register_UnityEngine_SceneManagement_SceneManager_GetSceneAt_Injected();
+		Register_UnityEngine_SceneManagement_SceneManager_GetSceneAt_Injected();
+
 	//End Registrations for type : UnityEngine.SceneManagement.SceneManager
+
+	//Start Registrations for type : UnityEngine.SceneManagement.SceneManagerAPIInternal
+
+		//System.IntPtr UnityEngine.SceneManagement.SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,System.Int32,UnityEngine.SceneManagement.LoadSceneParameters&,System.Boolean)
+		void Register_UnityEngine_SceneManagement_SceneManagerAPIInternal_LoadSceneAsyncNameIndexInternal_Injected();
+		Register_UnityEngine_SceneManagement_SceneManagerAPIInternal_LoadSceneAsyncNameIndexInternal_Injected();
+
+	//End Registrations for type : UnityEngine.SceneManagement.SceneManagerAPIInternal
 
 	//Start Registrations for type : UnityEngine.Screen
 

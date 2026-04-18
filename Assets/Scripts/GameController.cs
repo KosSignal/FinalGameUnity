@@ -28,7 +28,7 @@ public class GameController : MonoBehaviour
     void Update() {
         lifeText.GetComponent<TextMeshProUGUI>().text = "" + lives;
         if (lives <= 0) { // Game Over
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(6);
         }
     }
 
