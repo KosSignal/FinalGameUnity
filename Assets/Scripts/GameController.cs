@@ -17,6 +17,10 @@ public class GameController : MonoBehaviour
 
     void Start() {
         lives = PlayerPrefs.GetInt("Lives");
+        // For testing purposes
+        if (lives == 0) {
+            lives = 5;
+        }
         questions = FindObsWithTag("Question");
         for (int i = 1; i < questions.Length; i++) {
             questions[i].SetActive(false);
