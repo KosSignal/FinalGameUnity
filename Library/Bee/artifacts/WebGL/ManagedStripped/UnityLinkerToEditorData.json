@@ -327,11 +327,13 @@
           {
             "name": "Material",
             "scenes": [
+              "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
               "Assets/Scenes/Wave2.unity",
               "Assets/Scenes/Wave3.unity",
-              "Assets/Scenes/Wave4.unity"
+              "Assets/Scenes/Wave4.unity",
+              "Assets/Scenes/You Passed.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -357,11 +359,13 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
+              "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
               "Assets/Scenes/Wave2.unity",
               "Assets/Scenes/Wave3.unity",
-              "Assets/Scenes/Wave4.unity"
+              "Assets/Scenes/Wave4.unity",
+              "Assets/Scenes/You Passed.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -375,11 +379,13 @@
           {
             "name": "MonoScript",
             "scenes": [
+              "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
               "Assets/Scenes/Wave2.unity",
               "Assets/Scenes/Wave3.unity",
-              "Assets/Scenes/Wave4.unity"
+              "Assets/Scenes/Wave4.unity",
+              "Assets/Scenes/You Passed.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -431,11 +437,13 @@
           {
             "name": "RectTransform",
             "scenes": [
+              "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
               "Assets/Scenes/Wave2.unity",
               "Assets/Scenes/Wave3.unity",
-              "Assets/Scenes/Wave4.unity"
+              "Assets/Scenes/Wave4.unity",
+              "Assets/Scenes/You Passed.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -493,11 +501,13 @@
           {
             "name": "Shader",
             "scenes": [
+              "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
               "Assets/Scenes/Wave2.unity",
               "Assets/Scenes/Wave3.unity",
-              "Assets/Scenes/Wave4.unity"
+              "Assets/Scenes/Wave4.unity",
+              "Assets/Scenes/You Passed.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -523,11 +533,13 @@
           {
             "name": "Sprite",
             "scenes": [
+              "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
               "Assets/Scenes/Wave2.unity",
               "Assets/Scenes/Wave3.unity",
-              "Assets/Scenes/Wave4.unity"
+              "Assets/Scenes/Wave4.unity",
+              "Assets/Scenes/You Passed.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1682,7 +1694,9 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Scenes/Title Screen.unity"
+              "Assets/Scenes/Game Over.unity",
+              "Assets/Scenes/Title Screen.unity",
+              "Assets/Scenes/You Passed.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1748,11 +1762,13 @@
           {
             "name": "Canvas",
             "scenes": [
+              "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
               "Assets/Scenes/Wave2.unity",
               "Assets/Scenes/Wave3.unity",
-              "Assets/Scenes/Wave4.unity"
+              "Assets/Scenes/Wave4.unity",
+              "Assets/Scenes/You Passed.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1766,11 +1782,13 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
+              "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
               "Assets/Scenes/Wave2.unity",
               "Assets/Scenes/Wave3.unity",
-              "Assets/Scenes/Wave4.unity"
+              "Assets/Scenes/Wave4.unity",
+              "Assets/Scenes/You Passed.unity"
             ],
             "dependencyType": 0,
             "icon": null

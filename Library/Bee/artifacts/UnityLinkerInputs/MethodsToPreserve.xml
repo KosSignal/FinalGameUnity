@@ -8,6 +8,10 @@
 		</type>
 		<type fullname="MainMenu">
 			<method name="PlayGame"/>
+			<method name="PlayGame"/>
+			<method name="PlayGame"/>
+			<method name="PlayGame"/>
+			<method name="PlayGame"/>
 		</type>
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
