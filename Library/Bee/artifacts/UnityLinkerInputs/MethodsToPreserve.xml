@@ -1,5 +1,14 @@
 <linker>
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="CreditsController">
+			<method name="Menu"/>
+		</type>
+		<type fullname="EndController">
+			<method name="Credits"/>
+			<method name="Credits"/>
+			<method name="Menu"/>
+			<method name="Menu"/>
+		</type>
 		<type fullname="GameController">
 			<method name="nextQuestion"/>
 			<method name="nextQuestion"/>
@@ -7,10 +16,6 @@
 			<method name="nextQuestion"/>
 		</type>
 		<type fullname="MainMenu">
-			<method name="PlayGame"/>
-			<method name="PlayGame"/>
-			<method name="PlayGame"/>
-			<method name="PlayGame"/>
 			<method name="PlayGame"/>
 		</type>
 	</assembly>

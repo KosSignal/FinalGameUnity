@@ -851,7 +851,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9008160625738356819, guid: 05c4c24ad4657284e98b672b8fc6ba67, type: 3}
       propertyPath: 'answerText.Array.data[1]'
-      value: You respawn
+      value: Nothing
       objectReference: {fileID: 0}
     - target: {fileID: 9008160625738356819, guid: 05c4c24ad4657284e98b672b8fc6ba67, type: 3}
       propertyPath: 'answerText.Array.data[2]'
@@ -2250,61 +2250,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5067166578553333436, guid: 05c4c24ad4657284e98b672b8fc6ba67, type: 3}
   m_PrefabInstance: {fileID: 215205320}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &272781463
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 272781464}
-  - component: {fileID: 272781465}
-  m_Layer: 0
-  m_Name: AudioController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &272781464
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 272781463}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &272781465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 272781463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92a4a5e3bb06b2742a487b61f665289e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  sounds:
-  - name: Wrong
-    clip: {fileID: 8300000, guid: 153e72217bc3fbe4aabbaf8d70590fd6, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: Correct
-    clip: {fileID: 8300000, guid: 4bcd719da0fad364eae5de1d694e93c2, type: 3}
-    volume: 0.5
-    pitch: 1
-    source: {fileID: 0}
 --- !u!1001 &384325385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3863,6 +3808,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 862728523}
   m_CullTransparentMesh: 1
+--- !u!1001 &936744942
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2659587658036003623, guid: 022eb95d706e35c43a52dd1663fa69be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659587658036003623, guid: 022eb95d706e35c43a52dd1663fa69be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659587658036003623, guid: 022eb95d706e35c43a52dd1663fa69be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6841118605662928473, guid: 022eb95d706e35c43a52dd1663fa69be, type: 3}
+      propertyPath: m_Name
+      value: AudioController
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 022eb95d706e35c43a52dd1663fa69be, type: 3}
 --- !u!1 &1018540349
 GameObject:
   m_ObjectHideFlags: 0
@@ -4967,7 +4941,7 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 272781464}
+  - {fileID: 936744942}
   - {fileID: 6332360748791892525}
   - {fileID: 519420032}
   - {fileID: 1653718867}

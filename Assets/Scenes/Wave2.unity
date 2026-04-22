@@ -528,61 +528,6 @@ Transform:
   - {fileID: 923528344}
   m_Father: {fileID: 683373122}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &254969385
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 254969387}
-  - component: {fileID: 254969386}
-  m_Layer: 0
-  m_Name: AudioController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &254969386
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 254969385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92a4a5e3bb06b2742a487b61f665289e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  sounds:
-  - name: Wrong
-    clip: {fileID: 8300000, guid: 153e72217bc3fbe4aabbaf8d70590fd6, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: Correct
-    clip: {fileID: 8300000, guid: 4bcd719da0fad364eae5de1d694e93c2, type: 3}
-    volume: 0.5
-    pitch: 1
-    source: {fileID: 0}
---- !u!4 &254969387
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 254969385}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &296688857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1542,6 +1487,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 355d580dafd1d3548a650f9116f39dae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+--- !u!1001 &609864925
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2043784622103705325, guid: 022eb95d706e35c43a52dd1663fa69be, type: 3}
+      propertyPath: currMusic.pitch
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659587658036003623, guid: 022eb95d706e35c43a52dd1663fa69be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659587658036003623, guid: 022eb95d706e35c43a52dd1663fa69be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2659587658036003623, guid: 022eb95d706e35c43a52dd1663fa69be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6841118605662928473, guid: 022eb95d706e35c43a52dd1663fa69be, type: 3}
+      propertyPath: m_Name
+      value: AudioController
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 022eb95d706e35c43a52dd1663fa69be, type: 3}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -3935,9 +3913,9 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 6332360748791892525}
+  - {fileID: 609864925}
   - {fileID: 519420032}
   - {fileID: 1653718867}
   - {fileID: 619394802}
   - {fileID: 683373122}
   - {fileID: 1871019392}
-  - {fileID: 254969387}

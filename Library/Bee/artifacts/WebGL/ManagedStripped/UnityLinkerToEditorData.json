@@ -72,6 +72,7 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
@@ -86,10 +87,12 @@
           {
             "name": "AudioClip",
             "scenes": [
-              "Assets/Scenes/Wave1.unity",
+              "Assets/Scenes/Game Over.unity",
+              "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave2.unity",
               "Assets/Scenes/Wave3.unity",
-              "Assets/Scenes/Wave4.unity"
+              "Assets/Scenes/Wave4.unity",
+              "Assets/Scenes/You Passed.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -97,6 +100,7 @@
           {
             "name": "AudioListener",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
@@ -117,10 +121,12 @@
           {
             "name": "AudioResource",
             "scenes": [
-              "Assets/Scenes/Wave1.unity",
+              "Assets/Scenes/Game Over.unity",
+              "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave2.unity",
               "Assets/Scenes/Wave3.unity",
-              "Assets/Scenes/Wave4.unity"
+              "Assets/Scenes/Wave4.unity",
+              "Assets/Scenes/You Passed.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -163,6 +169,7 @@
           {
             "name": "Camera",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
@@ -189,6 +196,7 @@
           {
             "name": "Cubemap",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/You Passed.unity"
@@ -211,6 +219,7 @@
           {
             "name": "EditorExtension",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
@@ -231,6 +240,7 @@
           {
             "name": "GameObject",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
@@ -269,6 +279,7 @@
           {
             "name": "LevelGameManager",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
@@ -307,6 +318,7 @@
           {
             "name": "LightmapSettings",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
@@ -327,6 +339,7 @@
           {
             "name": "Material",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
@@ -359,6 +372,7 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
@@ -379,6 +393,7 @@
           {
             "name": "MonoScript",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
@@ -393,6 +408,7 @@
           {
             "name": "NamedObject",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
@@ -437,6 +453,7 @@
           {
             "name": "RectTransform",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
@@ -457,6 +474,7 @@
           {
             "name": "RenderSettings",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
@@ -476,14 +494,8 @@
           },
           {
             "name": "Renderer",
-            "scenes": [
-              "Assets/Scenes/Title Screen.unity",
-              "Assets/Scenes/Wave1.unity",
-              "Assets/Scenes/Wave2.unity",
-              "Assets/Scenes/Wave3.unity",
-              "Assets/Scenes/Wave4.unity"
-            ],
-            "dependencyType": 0,
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
           },
           {
@@ -501,6 +513,7 @@
           {
             "name": "Shader",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
@@ -533,6 +546,7 @@
           {
             "name": "Sprite",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
@@ -552,13 +566,7 @@
           },
           {
             "name": "SpriteRenderer",
-            "scenes": [
-              "Assets/Scenes/Title Screen.unity",
-              "Assets/Scenes/Wave1.unity",
-              "Assets/Scenes/Wave2.unity",
-              "Assets/Scenes/Wave3.unity",
-              "Assets/Scenes/Wave4.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
@@ -1694,9 +1702,7 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Scenes/Game Over.unity",
-              "Assets/Scenes/Title Screen.unity",
-              "Assets/Scenes/You Passed.unity"
+              "Assets/Scenes/Title Screen.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1762,6 +1768,7 @@
           {
             "name": "Canvas",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",
@@ -1782,6 +1789,7 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
+              "Assets/Scenes/Credits.unity",
               "Assets/Scenes/Game Over.unity",
               "Assets/Scenes/Title Screen.unity",
               "Assets/Scenes/Wave1.unity",

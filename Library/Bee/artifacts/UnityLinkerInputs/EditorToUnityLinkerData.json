@@ -16,6 +16,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "CreditsController",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "DelayedCallManager",
             "fullManagedTypeName": "",
@@ -28,6 +35,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -36,6 +44,13 @@
                 "Assets/Scenes/Wave4.unity",
                 "Assets/Scenes/You Passed.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "EndController",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
@@ -50,6 +65,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -72,6 +88,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -101,6 +118,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -123,6 +141,7 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -243,6 +262,7 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -293,10 +313,12 @@
             "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/Wave1.unity",
+                "Assets/Scenes/Game Over.unity",
+                "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave2.unity",
                 "Assets/Scenes/Wave3.unity",
-                "Assets/Scenes/Wave4.unity"
+                "Assets/Scenes/Wave4.unity",
+                "Assets/Scenes/You Passed.unity"
             ]
         },
         {
@@ -305,10 +327,12 @@
             "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/Wave1.unity",
+                "Assets/Scenes/Game Over.unity",
+                "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave2.unity",
                 "Assets/Scenes/Wave3.unity",
-                "Assets/Scenes/Wave4.unity"
+                "Assets/Scenes/Wave4.unity",
+                "Assets/Scenes/You Passed.unity"
             ]
         },
         {
@@ -317,6 +341,7 @@
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -332,10 +357,12 @@
             "fullManagedTypeName": "UnityEngine.AudioClip",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/Wave1.unity",
+                "Assets/Scenes/Game Over.unity",
+                "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave2.unity",
                 "Assets/Scenes/Wave3.unity",
-                "Assets/Scenes/Wave4.unity"
+                "Assets/Scenes/Wave4.unity",
+                "Assets/Scenes/You Passed.unity"
             ]
         },
         {
@@ -344,6 +371,7 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -359,6 +387,7 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -374,6 +403,7 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -389,6 +419,7 @@
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -404,6 +435,7 @@
             "fullManagedTypeName": "UnityEngine.CanvasRenderer",
             "moduleName": "UI",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -419,6 +451,7 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -441,6 +474,7 @@
             "fullManagedTypeName": "UnityEngine.Cubemap",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/You Passed.unity"
@@ -466,9 +500,7 @@
             "fullManagedTypeName": "UnityEngine.Font",
             "moduleName": "TextRendering",
             "usedInScenes": [
-                "Assets/Scenes/Game Over.unity",
-                "Assets/Scenes/Title Screen.unity",
-                "Assets/Scenes/You Passed.unity"
+                "Assets/Scenes/Title Screen.unity"
             ]
         },
         {
@@ -477,6 +509,7 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -534,6 +567,7 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -549,6 +583,7 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -564,6 +599,7 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -579,6 +615,7 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -601,6 +638,7 @@
             "fullManagedTypeName": "UnityEngine.RectTransform",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -608,19 +646,6 @@
                 "Assets/Scenes/Wave3.unity",
                 "Assets/Scenes/Wave4.unity",
                 "Assets/Scenes/You Passed.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Renderer",
-            "fullManagedTypeName": "UnityEngine.Renderer",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Title Screen.unity",
-                "Assets/Scenes/Wave1.unity",
-                "Assets/Scenes/Wave2.unity",
-                "Assets/Scenes/Wave3.unity",
-                "Assets/Scenes/Wave4.unity"
             ]
         },
         {
@@ -1049,6 +1074,7 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -1064,6 +1090,7 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -1079,6 +1106,7 @@
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -1090,23 +1118,11 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "SpriteRenderer",
-            "fullManagedTypeName": "UnityEngine.SpriteRenderer",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/Title Screen.unity",
-                "Assets/Scenes/Wave1.unity",
-                "Assets/Scenes/Wave2.unity",
-                "Assets/Scenes/Wave3.unity",
-                "Assets/Scenes/Wave4.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "TextAsset",
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -1122,6 +1138,7 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -1137,6 +1154,7 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -1152,6 +1170,7 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Credits.unity",
                 "Assets/Scenes/Game Over.unity",
                 "Assets/Scenes/Title Screen.unity",
                 "Assets/Scenes/Wave1.unity",
@@ -1160,6 +1179,13 @@
                 "Assets/Scenes/Wave4.unity",
                 "Assets/Scenes/You Passed.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Unity.2D.Animation.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.U2D.Animation.BufferManager",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Unity.2D.Animation.Runtime.dll",
