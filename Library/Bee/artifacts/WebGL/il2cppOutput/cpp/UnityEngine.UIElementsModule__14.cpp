@@ -7433,7 +7433,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventInterestReflectionUtils_GetDefaultE
 	{
 		Type_t* L_3 = ___0_elementType;
 		Type_t* L_4;
-		L_4 = VirtualFuncInvoker0< Type_t* >::Invoke(110, L_3);
+		L_4 = VirtualFuncInvoker0< Type_t* >::Invoke(109, L_3);
 		V_1 = L_4;
 		Type_t* L_5 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);

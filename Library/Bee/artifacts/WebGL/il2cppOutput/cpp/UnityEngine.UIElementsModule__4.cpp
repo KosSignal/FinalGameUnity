@@ -18425,7 +18425,7 @@ IL_0010:
 		Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* L_3 = __this->___m_GenericData;
 		String_t* L_4 = ___0_key;
 		RuntimeObject* L_5;
-		L_5 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(19, L_3, L_4);
+		L_5 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(18, L_3, L_4);
 		return L_5;
 	}
 }
@@ -18478,7 +18478,7 @@ IL_0016:
 		Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* L_4;
 		L_4 = StartDragArgs_get_genericData_m9F34B0D595FC63E28E4D033BCA5767E5ED8185BD_inline((&___0_args), NULL);
 		RuntimeObject* L_5;
-		L_5 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(21, L_4);
+		L_5 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(20, L_4);
 		V_1 = L_5;
 	}
 	{
@@ -18524,7 +18524,7 @@ IL_003f_1:
 				L_12 = DictionaryEntry_get_Key_m09845C00732E530E6FCB9042079E90D3912215FE_inline((&V_2), NULL);
 				RuntimeObject* L_13;
 				L_13 = DictionaryEntry_get_Value_m75FD18FE968AE131F28AA2CB0DF4895EBA39075E_inline((&V_2), NULL);
-				VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(20, L_11, ((String_t*)CastclassSealed((RuntimeObject*)L_12, il2cpp_defaults.string_class)), L_13);
+				VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(19, L_11, ((String_t*)CastclassSealed((RuntimeObject*)L_12, il2cpp_defaults.string_class)), L_13);
 			}
 
 IL_0069_1:
@@ -20556,7 +20556,7 @@ IL_0015:
 		L_3 = StartDragArgs_get_genericData_m9F34B0D595FC63E28E4D033BCA5767E5ED8185BD_inline(__this, NULL);
 		String_t* L_4 = ___0_key;
 		RuntimeObject* L_5 = ___1_data;
-		VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(20, L_3, L_4, L_5);
+		VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(19, L_3, L_4, L_5);
 		return;
 	}
 }
@@ -28065,7 +28065,7 @@ IL_0019:
 		int32_t L_9 = ___1_length;
 		Span_1_tDEB40BEFA77B5E4BB49B058CD3050EEA4DD36C54 L_10;
 		memset((&L_10), 0, sizeof(L_10));
-		Span_1__ctor_mBA868F06359701D9950DEB1B10F52F848E9FF6DA_inline((&L_10), L_8, L_9, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 19));
+		Span_1__ctor_mBA868F06359701D9950DEB1B10F52F848E9FF6DA_inline((&L_10), L_8, L_9, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		return L_10;
 	}
 }

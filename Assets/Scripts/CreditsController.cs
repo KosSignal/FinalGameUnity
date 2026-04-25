@@ -9,6 +9,7 @@ public class CreditsController : MonoBehaviour
 
     public GameObject title;
     public GameObject devCredits;
+    public GameObject assetCredits;
     public GameObject button;
 
     private Color32 textColor;
@@ -40,6 +41,11 @@ public class CreditsController : MonoBehaviour
 
         // Change Text Color
         foreach (Transform child in devCredits.transform) {
+            child.GetComponent<TextMeshProUGUI>().overrideColorTags = true;
+            child.GetComponent<TextMeshProUGUI>().color = textColor;
+        }
+
+        foreach (Transform child in assetCredits.transform) {
             child.GetComponent<TextMeshProUGUI>().overrideColorTags = true;
             child.GetComponent<TextMeshProUGUI>().color = textColor;
         }

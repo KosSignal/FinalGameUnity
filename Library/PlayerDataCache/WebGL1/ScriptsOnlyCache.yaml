@@ -1407,7 +1407,7 @@ ScriptsOnlyBuild:
     className: TrackedDeviceRaycaster
   - hash:
       serializedVersion: 2
-      Hash: ac3300c7472f88546d783a7108994220
+      Hash: 646f90913d99956fba0f35d7c760db84
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CreditsController
